@@ -1,0 +1,702 @@
+[
+  {
+    "id": "P01",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Qué caracteriza al Machine Learning?",
+    "opciones": {
+      "A": "Aprende patrones a partir de datos",
+      "B": "Solo almacena archivos",
+      "C": "Requiere reglas manuales para cada caso",
+      "D": "Solo dibuja gráficos"
+    },
+    "correcta": "A",
+    "explicacion": "Machine Learning identifica patrones en datos para realizar estimaciones o decisiones.",
+    "puntos": 100
+  },
+  {
+    "id": "P02",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Cuál de estas tareas es una predicción?",
+    "opciones": {
+      "A": "Guardar una lista de notas",
+      "B": "Estimar la nota de un estudiante nuevo",
+      "C": "Cambiar el nombre de una columna",
+      "D": "Ordenar registros alfabéticamente"
+    },
+    "correcta": "B",
+    "explicacion": "Estimar una nota no conocida a partir de información disponible es una predicción.",
+    "puntos": 100
+  },
+  {
+    "id": "P03",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Qué distingue al aprendizaje supervisado?",
+    "opciones": {
+      "A": "No utiliza respuestas conocidas",
+      "B": "Solo funciona con imágenes",
+      "C": "Entrena con ejemplos que incluyen respuestas conocidas",
+      "D": "No necesita datos"
+    },
+    "correcta": "C",
+    "explicacion": "En aprendizaje supervisado se conocen las etiquetas o valores objetivo durante el entrenamiento.",
+    "puntos": 100
+  },
+  {
+    "id": "P04",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "En un dataset académico, ¿cuál podría ser una característica de entrada?",
+    "opciones": {
+      "A": "La nota que queremos predecir",
+      "B": "El resultado futuro aún desconocido",
+      "C": "La predicción generada",
+      "D": "Las horas de estudio registradas"
+    },
+    "correcta": "D",
+    "explicacion": "Las horas de estudio son una variable disponible para estimar un resultado.",
+    "puntos": 100
+  },
+  {
+    "id": "P05",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "Si queremos predecir una nota usando horas de estudio, ¿cuál es la variable y?",
+    "opciones": {
+      "A": "La nota final",
+      "B": "Las horas de estudio",
+      "C": "El identificador del estudiante",
+      "D": "El número de filas"
+    },
+    "correcta": "A",
+    "explicacion": "La variable y representa el valor objetivo: la nota final.",
+    "puntos": 100
+  },
+  {
+    "id": "P06",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Qué representa X en un modelo supervisado?",
+    "opciones": {
+      "A": "La precisión final",
+      "B": "Las características de entrada",
+      "C": "El error de evaluación",
+      "D": "La respuesta correcta exclusivamente"
+    },
+    "correcta": "B",
+    "explicacion": "X contiene la información que utiliza el modelo para generar una predicción.",
+    "puntos": 100
+  },
+  {
+    "id": "P07",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Por qué se utilizan datos históricos para entrenar?",
+    "opciones": {
+      "A": "Para eliminar las variables",
+      "B": "Para evitar medir resultados",
+      "C": "Para aprender relaciones observadas",
+      "D": "Para garantizar predicciones perfectas"
+    },
+    "correcta": "C",
+    "explicacion": "Los datos históricos aportan ejemplos de relaciones entre entradas y resultados.",
+    "puntos": 100
+  },
+  {
+    "id": "P08",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Cuál es una limitación importante de los modelos de ML?",
+    "opciones": {
+      "A": "Siempre predicen exactamente",
+      "B": "No pueden procesar números",
+      "C": "No necesitan evaluación",
+      "D": "Pueden equivocarse en casos nuevos"
+    },
+    "correcta": "D",
+    "explicacion": "Los modelos pueden fallar, por lo que deben evaluarse con datos no usados al entrenar.",
+    "puntos": 100
+  },
+  {
+    "id": "P09",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Qué ejemplo corresponde a un resultado numérico?",
+    "opciones": {
+      "A": "Predecir una nota de 14.5",
+      "B": "Predecir aprobado/desaprobado",
+      "C": "Identificar spam/no spam",
+      "D": "Asignar nivel bajo/medio/alto"
+    },
+    "correcta": "A",
+    "explicacion": "La nota 14.5 es una cantidad numérica.",
+    "puntos": 100
+  },
+  {
+    "id": "P10",
+    "bloque": "Machine Learning y aprendizaje supervisado",
+    "pregunta": "¿Qué ejemplo corresponde a una categoría?",
+    "opciones": {
+      "A": "Estimar un costo de S/ 80",
+      "B": "Determinar si una solicitud se aprueba",
+      "C": "Predecir una temperatura de 25 °C",
+      "D": "Estimar 7 horas de estudio"
+    },
+    "correcta": "B",
+    "explicacion": "Aprobada/no aprobada son categorías.",
+    "puntos": 100
+  },
+  {
+    "id": "P11",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "¿Para qué se utiliza la regresión lineal simple?",
+    "opciones": {
+      "A": "Para contar registros",
+      "B": "Para asignar nombres",
+      "C": "Para estimar un valor numérico con una entrada",
+      "D": "Para crear categorías automáticamente"
+    },
+    "correcta": "C",
+    "explicacion": "La regresión lineal simple modela una variable numérica usando una sola característica.",
+    "puntos": 100
+  },
+  {
+    "id": "P12",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "¿Cuántas variables de entrada utiliza una regresión lineal simple?",
+    "opciones": {
+      "A": "Dos",
+      "B": "Tres",
+      "C": "Todas las columnas",
+      "D": "Una"
+    },
+    "correcta": "D",
+    "explicacion": "La regresión lineal simple utiliza una variable predictora.",
+    "puntos": 100
+  },
+  {
+    "id": "P13",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "En y = mx + b, ¿qué representa m?",
+    "opciones": {
+      "A": "La pendiente",
+      "B": "La variable objetivo",
+      "C": "El tamaño del dataset",
+      "D": "La cantidad de clases"
+    },
+    "correcta": "A",
+    "explicacion": "La pendiente indica cuánto cambia el valor estimado de y por unidad de x.",
+    "puntos": 100
+  },
+  {
+    "id": "P14",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "En y = mx + b, ¿qué representa b?",
+    "opciones": {
+      "A": "La exactitud",
+      "B": "La intersección con el eje y",
+      "C": "La clase positiva",
+      "D": "El porcentaje de prueba"
+    },
+    "correcta": "B",
+    "explicacion": "b es el valor estimado cuando x es cero.",
+    "puntos": 100
+  },
+  {
+    "id": "P15",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "Si y = 2x + 4 y x = 5, ¿cuánto vale y?",
+    "opciones": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "correcta": "C",
+    "explicacion": "Sustituyendo: y = 2(5) + 4 = 14.",
+    "puntos": 100
+  },
+  {
+    "id": "P16",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "Si y = 3x + 2 y x = 4, ¿cuánto vale y?",
+    "opciones": {
+      "A": "10",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "correcta": "D",
+    "explicacion": "Sustituyendo: y = 3(4) + 2 = 14.",
+    "puntos": 100
+  },
+  {
+    "id": "P17",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "¿Qué muestra un gráfico de dispersión?",
+    "opciones": {
+      "A": "Pares de valores observados de dos variables",
+      "B": "Solo el promedio final",
+      "C": "Únicamente categorías",
+      "D": "Solo el código del algoritmo"
+    },
+    "correcta": "A",
+    "explicacion": "Cada punto representa una observación con coordenadas x e y.",
+    "puntos": 100
+  },
+  {
+    "id": "P18",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "Si la pendiente es positiva, ¿qué ocurre con la predicción al aumentar x?",
+    "opciones": {
+      "A": "Siempre disminuye",
+      "B": "Tiende a aumentar",
+      "C": "No cambia nunca",
+      "D": "Se convierte en categoría"
+    },
+    "correcta": "B",
+    "explicacion": "Una pendiente positiva implica que el valor estimado aumenta con x.",
+    "puntos": 100
+  },
+  {
+    "id": "P19",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "Si la pendiente es cero, ¿qué sucede con la predicción al variar x?",
+    "opciones": {
+      "A": "Aumenta exponencialmente",
+      "B": "Se vuelve negativa",
+      "C": "Permanece constante",
+      "D": "Cambia de categoría"
+    },
+    "correcta": "C",
+    "explicacion": "Con m = 0, y = b para cualquier x.",
+    "puntos": 100
+  },
+  {
+    "id": "P20",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "¿Cuál sería la variable objetivo en una predicción de notas?",
+    "opciones": {
+      "A": "Horas de estudio",
+      "B": "Asistencia",
+      "C": "Código del estudiante",
+      "D": "Nota final"
+    },
+    "correcta": "D",
+    "explicacion": "La nota es el valor numérico que deseamos estimar.",
+    "puntos": 100
+  },
+  {
+    "id": "P21",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "Un modelo predice 13 y la nota real es 15. ¿Cuál es el error absoluto?",
+    "opciones": {
+      "A": "2",
+      "B": "-2",
+      "C": "28",
+      "D": "0.87"
+    },
+    "correcta": "A",
+    "explicacion": "El error absoluto es |15 − 13| = 2.",
+    "puntos": 100
+  },
+  {
+    "id": "P22",
+    "bloque": "Regresión lineal simple",
+    "pregunta": "¿Cuál es una precaución al interpretar una línea de regresión?",
+    "opciones": {
+      "A": "Demuestra causalidad por sí sola",
+      "B": "La relación aprendida no garantiza causalidad",
+      "C": "Nunca presenta errores",
+      "D": "Siempre funciona fuera del rango observado"
+    },
+    "correcta": "B",
+    "explicacion": "Una asociación predictiva no demuestra que una variable cause la otra.",
+    "puntos": 100
+  },
+  {
+    "id": "P23",
+    "bloque": "Clasificación",
+    "pregunta": "¿Cuál es el objetivo de la clasificación?",
+    "opciones": {
+      "A": "Predecir un monto exacto",
+      "B": "Calcular una pendiente",
+      "C": "Asignar una categoría",
+      "D": "Medir el tamaño de un archivo"
+    },
+    "correcta": "C",
+    "explicacion": "La clasificación predice etiquetas o clases.",
+    "puntos": 100
+  },
+  {
+    "id": "P24",
+    "bloque": "Clasificación",
+    "pregunta": "¿Cuál es un ejemplo de clasificación binaria?",
+    "opciones": {
+      "A": "Bajo, medio y alto",
+      "B": "Cinco tipos de cursos",
+      "C": "Notas de 0 a 20",
+      "D": "Aprueba o desaprueba"
+    },
+    "correcta": "D",
+    "explicacion": "La clasificación binaria distingue dos clases.",
+    "puntos": 100
+  },
+  {
+    "id": "P25",
+    "bloque": "Clasificación",
+    "pregunta": "¿Cuál es un ejemplo de clasificación multiclase?",
+    "opciones": {
+      "A": "Riesgo bajo, medio o alto",
+      "B": "Fraude o no fraude",
+      "C": "Aprobado o desaprobado",
+      "D": "Spam o no spam"
+    },
+    "correcta": "A",
+    "explicacion": "La clasificación multiclase considera tres o más categorías.",
+    "puntos": 100
+  },
+  {
+    "id": "P26",
+    "bloque": "Clasificación",
+    "pregunta": "¿Qué algoritmo se utilizará como ejemplo básico de clasificación?",
+    "opciones": {
+      "A": "LinearRegression",
+      "B": "LogisticRegression",
+      "C": "KMeans",
+      "D": "PCA"
+    },
+    "correcta": "B",
+    "explicacion": "La regresión logística es un algoritmo supervisado usado para clasificación.",
+    "puntos": 100
+  },
+  {
+    "id": "P27",
+    "bloque": "Clasificación",
+    "pregunta": "¿Qué salida puede generar una regresión logística binaria?",
+    "opciones": {
+      "A": "Una pendiente exclusivamente",
+      "B": "Un identificador aleatorio",
+      "C": "Una probabilidad para una clase",
+      "D": "Solo un gráfico de barras"
+    },
+    "correcta": "C",
+    "explicacion": "El modelo puede estimar la probabilidad de pertenecer a una clase.",
+    "puntos": 100
+  },
+  {
+    "id": "P28",
+    "bloque": "Clasificación",
+    "pregunta": "Con umbral 0.50, ¿qué clase se asigna si P(aprueba) = 0.82?",
+    "opciones": {
+      "A": "Desaprueba",
+      "B": "No es posible usar un umbral",
+      "C": "Ambas clases",
+      "D": "Aprueba"
+    },
+    "correcta": "D",
+    "explicacion": "0.82 supera el umbral 0.50, por lo que se asigna la clase aprueba.",
+    "puntos": 100
+  },
+  {
+    "id": "P29",
+    "bloque": "Clasificación",
+    "pregunta": "Con umbral 0.50, ¿qué clase se asigna si P(aprueba) = 0.35?",
+    "opciones": {
+      "A": "Desaprueba",
+      "B": "Aprueba",
+      "C": "Las dos",
+      "D": "Ninguna predicción"
+    },
+    "correcta": "A",
+    "explicacion": "0.35 es menor que 0.50, por lo que se asigna la clase desaprueba.",
+    "puntos": 100
+  },
+  {
+    "id": "P30",
+    "bloque": "Clasificación",
+    "pregunta": "¿Qué significa que el modelo prediga “aprueba”?",
+    "opciones": {
+      "A": "Que la nota exacta será 20",
+      "B": "Que asignó la observación a esa categoría",
+      "C": "Que nunca se equivoca",
+      "D": "Que no usó características de entrada"
+    },
+    "correcta": "B",
+    "explicacion": "El clasificador asigna una etiqueta; eso no garantiza que sea correcta.",
+    "puntos": 100
+  },
+  {
+    "id": "P31",
+    "bloque": "Clasificación",
+    "pregunta": "¿Cuál de estas variables es categórica?",
+    "opciones": {
+      "A": "Horas de estudio",
+      "B": "Nota numérica",
+      "C": "Condición aprobado/desaprobado",
+      "D": "Porcentaje de asistencia"
+    },
+    "correcta": "C",
+    "explicacion": "Aprobado/desaprobado expresa clases, no una cantidad continua.",
+    "puntos": 100
+  },
+  {
+    "id": "P32",
+    "bloque": "Clasificación",
+    "pregunta": "Si las clases son 0 y 1, ¿qué debemos recordar?",
+    "opciones": {
+      "A": "Son necesariamente notas",
+      "B": "Siempre son horas",
+      "C": "Indican una pendiente",
+      "D": "Pueden ser códigos de categorías"
+    },
+    "correcta": "D",
+    "explicacion": "Los valores 0 y 1 pueden codificar etiquetas de clasificación.",
+    "puntos": 100
+  },
+  {
+    "id": "P33",
+    "bloque": "Clasificación",
+    "pregunta": "¿Qué combinación es adecuada para predecir aprobación sin utilizar la nota final?",
+    "opciones": {
+      "A": "Horas de estudio y asistencia como X; aprobación como y",
+      "B": "Aprobación como X; asistencia como y",
+      "C": "Identificador como única X; nota como y",
+      "D": "Nota final como X; nota final como y"
+    },
+    "correcta": "A",
+    "explicacion": "Se pueden usar horas y asistencia para estimar la etiqueta de aprobación.",
+    "puntos": 100
+  },
+  {
+    "id": "P34",
+    "bloque": "Clasificación",
+    "pregunta": "¿Qué problema ocurre si usamos la nota final para predecir “aprobó” cuando esa etiqueta se deriva de la misma nota?",
+    "opciones": {
+      "A": "Mejora la independencia de datos",
+      "B": "Introducimos fuga de información del resultado",
+      "C": "Elimina las clases",
+      "D": "Convierte el problema en regresión lineal"
+    },
+    "correcta": "B",
+    "explicacion": "La nota final contiene directamente la información que define la aprobación; usarla puede generar fuga de información.",
+    "puntos": 100
+  },
+  {
+    "id": "P35",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "¿Para qué sirven los datos de entrenamiento?",
+    "opciones": {
+      "A": "Solo para presentar resultados",
+      "B": "Para sustituir las métricas",
+      "C": "Para que el modelo aprenda patrones",
+      "D": "Para mostrar el ranking"
+    },
+    "correcta": "C",
+    "explicacion": "El entrenamiento ajusta el modelo usando ejemplos conocidos.",
+    "puntos": 100
+  },
+  {
+    "id": "P36",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "¿Para qué sirven los datos de prueba?",
+    "opciones": {
+      "A": "Para crear más etiquetas manuales",
+      "B": "Para eliminar errores de captura",
+      "C": "Para elegir el nombre del modelo",
+      "D": "Para evaluar casos no usados en el entrenamiento"
+    },
+    "correcta": "D",
+    "explicacion": "El conjunto de prueba estima el desempeño en datos no vistos durante el entrenamiento.",
+    "puntos": 100
+  },
+  {
+    "id": "P37",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "Si dividimos 100 registros en 80 % entrenamiento y 20 % prueba, ¿cuántos son de prueba?",
+    "opciones": {
+      "A": "20",
+      "B": "40",
+      "C": "60",
+      "D": "80"
+    },
+    "correcta": "A",
+    "explicacion": "El 20 % de 100 es 20.",
+    "puntos": 100
+  },
+  {
+    "id": "P38",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "¿Qué significa MAE?",
+    "opciones": {
+      "A": "Métrica de aciertos exactos",
+      "B": "Error absoluto medio",
+      "C": "Margen de aprendizaje estimado",
+      "D": "Medida de asignación de etiquetas"
+    },
+    "correcta": "B",
+    "explicacion": "MAE promedia las magnitudes absolutas de los errores de regresión.",
+    "puntos": 100
+  },
+  {
+    "id": "P39",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "Si los errores absolutos son 1, 1, 2 y 1, ¿cuál es el MAE?",
+    "opciones": {
+      "A": "1",
+      "B": "2",
+      "C": "1.25",
+      "D": "5"
+    },
+    "correcta": "C",
+    "explicacion": "(1 + 1 + 2 + 1) / 4 = 1.25.",
+    "puntos": 100
+  },
+  {
+    "id": "P40",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "¿Qué representa accuracy en clasificación?",
+    "opciones": {
+      "A": "La magnitud media del error",
+      "B": "La pendiente de la recta",
+      "C": "El número de características",
+      "D": "La proporción de predicciones correctas"
+    },
+    "correcta": "D",
+    "explicacion": "Accuracy es aciertos divididos entre el total de casos evaluados.",
+    "puntos": 100
+  },
+  {
+    "id": "P41",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "Si un clasificador acierta 16 de 20 casos, ¿cuál es su accuracy?",
+    "opciones": {
+      "A": "80 %",
+      "B": "60 %",
+      "C": "16 %",
+      "D": "20 %"
+    },
+    "correcta": "A",
+    "explicacion": "16 / 20 = 0.80, equivalente a 80 %.",
+    "puntos": 100
+  },
+  {
+    "id": "P42",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "¿Para qué sirve la matriz de confusión?",
+    "opciones": {
+      "A": "Para calcular la pendiente",
+      "B": "Para comparar categorías reales y predichas",
+      "C": "Para sustituir los datos de prueba",
+      "D": "Para eliminar variables X"
+    },
+    "correcta": "B",
+    "explicacion": "La matriz muestra aciertos y tipos de errores por clase.",
+    "puntos": 100
+  },
+  {
+    "id": "P43",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "¿Por qué accuracy puede ser insuficiente?",
+    "opciones": {
+      "A": "Porque solo se aplica a regresión",
+      "B": "Porque no permite contar aciertos",
+      "C": "Porque puede ocultar errores importantes entre clases",
+      "D": "Porque siempre es cero"
+    },
+    "correcta": "C",
+    "explicacion": "En clases desbalanceadas, una exactitud alta puede ocultar fallos sobre una clase minoritaria.",
+    "puntos": 100
+  },
+  {
+    "id": "P44",
+    "bloque": "Entrenamiento y evaluación",
+    "pregunta": "¿Qué riesgo aparece cuando el dataset no representa a todos los grupos relevantes?",
+    "opciones": {
+      "A": "Mayor velocidad de ejecución",
+      "B": "Una ecuación más corta",
+      "C": "Menos columnas de salida",
+      "D": "Predicciones sesgadas para ciertos grupos"
+    },
+    "correcta": "D",
+    "explicacion": "La falta de representatividad puede perjudicar el desempeño en algunos grupos.",
+    "puntos": 100
+  },
+  {
+    "id": "P45",
+    "bloque": "Casos integradores",
+    "pregunta": "Una universidad quiere estimar el costo de matrícula del próximo ciclo. ¿Qué tipo de problema es?",
+    "opciones": {
+      "A": "Regresión",
+      "B": "Clasificación binaria",
+      "C": "Clasificación multiclase",
+      "D": "Matriz de confusión"
+    },
+    "correcta": "A",
+    "explicacion": "El costo es una cantidad numérica; corresponde a regresión.",
+    "puntos": 100
+  },
+  {
+    "id": "P46",
+    "bloque": "Casos integradores",
+    "pregunta": "Una plataforma quiere decidir si un correo es spam. ¿Qué tipo de problema es?",
+    "opciones": {
+      "A": "Regresión lineal",
+      "B": "Clasificación binaria",
+      "C": "Predicción de monto",
+      "D": "Cálculo de MAE"
+    },
+    "correcta": "B",
+    "explicacion": "Spam/no spam son dos categorías.",
+    "puntos": 100
+  },
+  {
+    "id": "P47",
+    "bloque": "Casos integradores",
+    "pregunta": "Un modelo predice una nota de 14 y otro predice “aprueba”. ¿Cuál es la diferencia principal?",
+    "opciones": {
+      "A": "Ambos predicen cantidades",
+      "B": "Ambos predicen etiquetas",
+      "C": "El primero predice cantidad y el segundo categoría",
+      "D": "El primero no usa datos"
+    },
+    "correcta": "C",
+    "explicacion": "La regresión estima un número; la clasificación asigna una clase.",
+    "puntos": 100
+  },
+  {
+    "id": "P48",
+    "bloque": "Casos integradores",
+    "pregunta": "Una universidad detecta 90 % de accuracy, pero falla con frecuencia en estudiantes de una modalidad poco representada. ¿Qué debería hacer?",
+    "opciones": {
+      "A": "Ignorar los errores",
+      "B": "Eliminar los casos difíciles",
+      "C": "Usar solo la exactitud global",
+      "D": "Revisar representatividad y errores por grupo"
+    },
+    "correcta": "D",
+    "explicacion": "Conviene revisar métricas desagregadas y datos de entrenamiento para identificar sesgos.",
+    "puntos": 100
+  },
+  {
+    "id": "P49",
+    "bloque": "Casos integradores",
+    "pregunta": "¿Cuál es una secuencia correcta para construir y evaluar un modelo supervisado?",
+    "opciones": {
+      "A": "Definir X e y, dividir datos, entrenar, predecir y evaluar",
+      "B": "Evaluar, borrar y, entrenar sin datos, predecir",
+      "C": "Mostrar ranking, elegir colores, entrenar",
+      "D": "Predecir primero y después reunir los datos"
+    },
+    "correcta": "A",
+    "explicacion": "Se define el problema, se separan datos y se evalúa con casos de prueba.",
+    "puntos": 100
+  },
+  {
+    "id": "P50",
+    "bloque": "Casos integradores",
+    "pregunta": "Si un modelo predice desaprobación, ¿cuál sería el uso responsable del resultado?",
+    "opciones": {
+      "A": "Impedir automáticamente la matrícula",
+      "B": "Ofrecer apoyo académico y revisar la predicción con criterio humano",
+      "C": "Publicar la etiqueta como hecho definitivo",
+      "D": "Eliminar el registro del estudiante"
+    },
+    "correcta": "B",
+    "explicacion": "Las predicciones pueden orientar apoyos, pero no deberían convertirse en decisiones automáticas injustificadas.",
+    "puntos": 100
+  }
+]
