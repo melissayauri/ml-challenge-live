@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ml-challenge-live
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /health
+    envVars:
+      - key: ML_TEACHER_PASSWORD
+        sync: false
